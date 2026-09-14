@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio van Orhan Şahin, MBO Software Development student in Groningen.">
+  <title>Orhan Şahin — Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav-wrap">
+    <nav class="nav" aria-label="Hoofdnavigatie">
+      <a class="brand" href="#home" aria-label="Naar boven">OŞ<span>.</span></a>
+      <button class="menu" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#over">Over mij</a><a href="#projecten">Projecten</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">MBO-4 SOFTWARE DEVELOPMENT · GRONINGEN</p>
+        <h1>Ik bouw digitale<br><span>ideeën die werken.</span></h1>
+        <p class="intro">Hoi, ik ben Orhan Şahin. Ik ben een leergierige software development student met interesse in webdevelopment, veilige applicaties en slimme oplossingen.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projecten">Bekijk mijn werk <span>↘</span></a>
+          <a class="button ghost" href="#contact">Neem contact op</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-card"><span>01</span><code>const idea = <b>build()</b>;</code><span>02</span><code>test(idea);</code><span>03</span><code>ship(idea);</code></div>
+        <div class="status"><i></i> Beschikbaar voor stage</div>
+      </div>
+    </section>
+
+    <section class="about section" id="over">
+      <div class="section-label">01 / OVER MIJ</div>
+      <div class="about-grid">
+        <h2>Nieuwsgierig van nature.<br>Gericht op <span>groei.</span></h2>
+        <div class="about-copy"><p>Ik woon in Vries en studeer Software Development aan het Alfa-college in Groningen. Tijdens mijn opleiding leer ik applicaties en websites ontwerpen, bouwen en verbeteren.</p><p>Ik werk graag stap voor stap: eerst het probleem begrijpen, daarna een duidelijke oplossing maken. Buiten programmeren houd ik van schaken en gaming — twee hobby's waarin strategie en concentratie belangrijk zijn.</p></div>
+      </div>
+      <div class="facts"><div><strong>2e</strong><span>leerjaar</span></div><div><strong>MBO-4</strong><span>niveau</span></div><div><strong>3+</strong><span>talen</span></div><div><strong>∞</strong><span>nieuwsgierigheid</span></div></div>
+    </section>
+
+    <section class="projects section" id="projecten">
+      <div class="section-label">02 / PROJECTEN</div>
+      <div class="section-heading"><h2>Geselecteerd werk</h2><p>Projecten uit mijn opleiding waarin techniek, ontwerp en probleemoplossing samenkomen.</p></div>
+      <div class="project-grid">
+        <article class="project featured"><div class="project-top"><span>01</span><span class="arrow">↗</span></div><div><p class="tag">HTML · CSS · JAVASCRIPT</p><h3>Battleship Pacific</h3><p>Een strategische webgame waarin de speler zijn vloot plaatst en tegen een computertegenstander speelt.</p></div><div class="mini-board" aria-hidden="true"></div></article>
+        <article class="project"><div class="project-top"><span>02</span><span class="arrow">↗</span></div><div><p class="tag">C# · OOP · .NET</p><h3>Zuul Adventure</h3><p>Een text adventure met kamers, inventory, items, health en interactieve commands.</p></div><div class="terminal" aria-hidden="true"><span>&gt; look</span><span>You are in the hall.</span><span>&gt; take sword_</span></div></article>
+        <article class="project"><div class="project-top"><span>03</span><span class="arrow">↗</span></div><div><p class="tag">PHP · MYSQL · SECURITY</p><h3>Secure Web App</h3><p>Een PHP-applicatie beveiligd tegen SQL-injectie, XSS en het lekken van gevoelige gegevens.</p></div><div class="shield" aria-hidden="true">✓</div></article>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="section-label">03 / SKILLS</div>
+      <div class="skills-grid"><div><h2>Mijn gereedschap</h2><p>Ik breid mijn kennis continu uit door te bouwen, fouten te onderzoeken en oplossingen te verbeteren.</p></div><div class="skill-list"><div><span>Frontend</span><p>HTML · CSS · JavaScript</p></div><div><span>Backend</span><p>PHP · C# · MySQL</p></div><div><span>Tools</span><p>Git · GitHub · Docker · VS Code</p></div><div><span>Persoonlijk</span><p>Leergierig · Nauwkeurig · Teamgericht</p></div></div></div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <p class="eyebrow">LATEN WE KENNISMAKEN</p><h2>Op zoek naar een<br><span>gemotiveerde stagiair?</span></h2><p>Ik sta open voor een software development stage waar ik kan bijdragen, leren en groeien.</p><a class="button light" href="mailto:orhan@example.com">Stuur mij een e-mail <span>↗</span></a>
+    </section>
+  </main>
+  <footer><span>© 2026 Orhan Şahin</span><span>Ontworpen & gebouwd met aandacht.</span><a href="#home">Naar boven ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
