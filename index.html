@@ -1,73 +1,546 @@
 <!doctype html>
 <html lang="nl">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Portfolio van Orhan Şahin, MBO Software Development student in Groningen.">
-  <title>Orhan Şahin — Software Developer</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header class="nav-wrap">
-    <nav class="nav" aria-label="Hoofdnavigatie">
-      <a class="brand" href="#home" aria-label="Naar boven">OŞ<span>.</span></a>
-      <button class="menu" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
-      <div class="nav-links" id="nav-links">
-        <a href="#over">Over mij</a><a href="#projecten">Projecten</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
-      </div>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-copy reveal">
-        <p class="eyebrow">MBO-4 SOFTWARE DEVELOPMENT · GRONINGEN</p>
-        <h1>Ik bouw digitale<br><span>ideeën die werken.</span></h1>
-        <p class="intro">Hoi, ik ben Orhan Şahin. Ik ben een leergierige software development student met interesse in webdevelopment, veilige applicaties en slimme oplossingen.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#projecten">Bekijk mijn werk <span>↘</span></a>
-          <a class="button ghost" href="#contact">Neem contact op</a>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="description" content="Portfolio van Orhan Şahin, MBO Software Development student in Groningen." />
+    <title>
+      Orhan Şahin — Software Developer
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">
+      Ga naar inhoud
+    </a>
+    <!-- Navigatiebalk bovenaan de pagina -->
+    <header class="nav-wrap">
+      <nav class="nav" aria-label="Hoofdnavigatie">
+        <a class="brand" href="#home" aria-label="Naar boven">
+          OŞ
+          <span>
+            .
+          </span>
+        </a>
+        <button class="menu" type="button" aria-expanded="false" aria-controls="nav-links" >
+          Menu
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#over">
+            Over mij
+          </a>
+          <a href="#projecten">
+            Projecten
+          </a>
+          <a href="#skills">
+            Skills
+          </a>
+          <a href="#contact">
+            Contact
+          </a>
         </div>
-      </div>
-      <div class="hero-visual reveal" aria-hidden="true">
-        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-        <div class="code-card"><span>01</span><code>const idea = <b>build()</b>;</code><span>02</span><code>test(idea);</code><span>03</span><code>ship(idea);</code></div>
-        <div class="status"><i></i> Beschikbaar voor stage</div>
-      </div>
-    </section>
-
-    <section class="about section" id="over">
-      <div class="section-label">01 / OVER MIJ</div>
-      <div class="about-grid">
-        <h2>Nieuwsgierig van nature.<br>Gericht op <span>groei.</span></h2>
-        <div class="about-copy"><p>Ik woon in Vries en studeer Software Development aan het Alfa-college in Groningen. Tijdens mijn opleiding leer ik applicaties en websites ontwerpen, bouwen en verbeteren.</p><p>Ik werk graag stap voor stap: eerst het probleem begrijpen, daarna een duidelijke oplossing maken. Buiten programmeren houd ik van schaken en gaming — twee hobby's waarin strategie en concentratie belangrijk zijn.</p></div>
-      </div>
-      <div class="facts"><div><strong>2e</strong><span>leerjaar</span></div><div><strong>MBO-4</strong><span>niveau</span></div><div><strong>3+</strong><span>talen</span></div><div><strong>∞</strong><span>nieuwsgierigheid</span></div></div>
-    </section>
-
-    <section class="projects section" id="projecten">
-      <div class="section-label">02 / PROJECTEN</div>
-      <div class="section-heading"><h2>Geselecteerd werk</h2><p>Projecten uit mijn opleiding waarin techniek, ontwerp en probleemoplossing samenkomen.</p></div>
-      <div class="project-grid">
-        <article class="project featured"><div class="project-top"><span>01</span><span class="arrow">↗</span></div><div><p class="tag">HTML · CSS · JAVASCRIPT</p><h3>Battleship Pacific</h3><p>Een strategische webgame waarin de speler zijn vloot plaatst en tegen een computertegenstander speelt.</p></div><div class="mini-board" aria-hidden="true"></div></article>
-        <article class="project"><div class="project-top"><span>02</span><span class="arrow">↗</span></div><div><p class="tag">C# · OOP · .NET</p><h3>Zuul Adventure</h3><p>Een text adventure met kamers, inventory, items, health en interactieve commands.</p></div><div class="terminal" aria-hidden="true"><span>&gt; look</span><span>You are in the hall.</span><span>&gt; take sword_</span></div></article>
-        <article class="project"><div class="project-top"><span>03</span><span class="arrow">↗</span></div><div><p class="tag">PHP · MYSQL · SECURITY</p><h3>Secure Web App</h3><p>Een PHP-applicatie beveiligd tegen SQL-injectie, XSS en het lekken van gevoelige gegevens.</p></div><div class="shield" aria-hidden="true">✓</div></article>
-      </div>
-    </section>
-
-    <section class="skills section" id="skills">
-      <div class="section-label">03 / SKILLS</div>
-      <div class="skills-grid"><div><h2>Mijn gereedschap</h2><p>Ik breid mijn kennis continu uit door te bouwen, fouten te onderzoeken en oplossingen te verbeteren.</p></div><div class="skill-list"><div><span>Frontend</span><p>HTML · CSS · JavaScript</p></div><div><span>Backend</span><p>PHP · C# · MySQL</p></div><div><span>Tools</span><p>Git · GitHub · Docker · VS Code</p></div><div><span>Persoonlijk</span><p>Leergierig · Nauwkeurig · Teamgericht</p></div></div></div>
-    </section>
-
-    <section class="contact section" id="contact">
-      <p class="eyebrow">LATEN WE KENNISMAKEN</p><h2>Op zoek naar een<br><span>gemotiveerde stagiair?</span></h2><p>Ik sta open voor een software development stage waar ik kan bijdragen, leren en groeien.</p><a class="button light" href="mailto:orhan@example.com">Stuur mij een e-mail <span>↗</span></a>
-    </section>
-  </main>
-  <footer><span>© 2026 Orhan Şahin</span><span>Ontworpen & gebouwd met aandacht.</span><a href="#home">Naar boven ↑</a></footer>
-  <script src="script.js"></script>
-</body>
+      </nav>
+    </header>
+    <main id="main">
+      <!-- Introductie: het eerste gedeelte dat de bezoeker ziet -->
+      <section class="hero" id="home">
+        <div class="hero-copy reveal">
+          <img class="hero-photo" src="assets/orhan-profile.jpeg" alt="Orhan Şahin" width="184" height="184" />
+          <p class="eyebrow">
+            MBO-4 SOFTWARE DEVELOPMENT · GRONINGEN
+          </p>
+          <h1>
+            Ik bouw digitale
+            <br />
+            <span>
+              ideeën die werken.
+            </span>
+          </h1>
+          <p class="intro">
+            Ik ben Orhan Şahin, student Software Development aan het Alfa-college. Ik bouw webapplicaties en games en verdiep me in veilige software. Voor mijn stage zoek ik een team waarin ik kan bijdragen en verder leren.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projecten" >
+              Bekijk mijn werk
+              <span>
+                ↘
+              </span>
+            </a>
+            <a class="button ghost" href="#over">
+              Meer over mij
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="orbit orbit-one" aria-hidden="true">
+          </div>
+          <div class="orbit orbit-two" aria-hidden="true">
+          </div>
+          <div class="code-card" aria-hidden="true">
+            <span>
+              01
+            </span>
+            <code>
+              const idea =
+              <b>
+                build()
+              </b>
+              ;
+            </code>
+            <span>
+              02
+            </span>
+            <code>
+              test(idea);
+            </code>
+            <span>
+              03
+            </span>
+            <code>
+              ship(idea);
+            </code>
+          </div>
+          <div class="status">
+            <i>
+            </i>
+            Beschikbaar voor stage
+          </div>
+        </div>
+      </section>
+      <!-- Persoonlijke informatie -->
+      <section class="about section" id="over">
+        <div class="section-label">
+          01 / OVER MIJ
+        </div>
+        <div class="about-grid">
+          <h2>
+            Nieuwsgierig van nature.
+            <br />
+            Gericht op
+            <span>
+              groei.
+            </span>
+          </h2>
+          <div class="about-copy">
+            <p>
+              Ik woon in Vries en studeer Software Development aan het Alfa-college in Groningen. Tijdens mijn opleiding leer ik applicaties en websites ontwerpen, bouwen en verbeteren.
+            </p>
+            <p>
+              Ik werk graag stap voor stap: eerst het probleem begrijpen, daarna een duidelijke oplossing maken. Buiten programmeren houd ik van schaken en gaming — twee hobby's waarin strategie en concentratie belangrijk zijn.
+            </p>
+          </div>
+        </div>
+        <div class="facts">
+          <div>
+            <strong>
+              2e
+            </strong>
+            <span>
+              leerjaar
+            </span>
+          </div>
+          <div>
+            <strong>
+              MBO-4
+            </strong>
+            <span>
+              niveau
+            </span>
+          </div>
+          <div>
+            <strong>
+              3+
+            </strong>
+            <span>
+              talen
+            </span>
+          </div>
+          <div>
+            <strong>
+              ∞
+            </strong>
+            <span>
+              nieuwsgierigheid
+            </span>
+          </div>
+        </div>
+      </section>
+      <!-- Schoolprojecten -->
+      <section class="projects section" id="projecten">
+        <div class="section-label">
+          02 / PROJECTEN
+        </div>
+        <div class="section-heading">
+          <h2>
+            Geselecteerd werk
+          </h2>
+          <p>
+            Van een speelbare webgame en een webshop tot een C#-avontuur en veilige PHP-code. Bekijk wat elk schoolproject doet en welke technieken ik gebruik.
+          </p>
+        </div>
+        <div class="project-grid">
+          <article class="project featured" aria-labelledby="battleship-title">
+            <div class="project-top">
+              <span>
+                01 / WEBGAME
+              </span>
+              <span class="project-badge">
+                Live demo
+              </span>
+            </div>
+            <figure class="project-screenshot">
+              <a href="assets/battleship-intro.jpg" target="_blank" rel="noopener noreferrer" aria-label="Vergroot het Battleship-scherm (nieuw tabblad)">
+                <img src="assets/battleship-intro.jpg" alt="Startscherm van Battleship Pacific met de Start-knop" loading="lazy" width="1280" height="720" />
+              </a>
+              <figcaption>
+                Startscherm · klik om te vergroten
+              </figcaption>
+            </figure>
+            <div class="project-description">
+              <p class="tag">
+                HTML · CSS · JAVASCRIPT
+              </p>
+              <h3 id="battleship-title">
+                Battleship Pacific
+              </h3>
+              <p>
+                Een strategische webgame: plaats je vloot en speel tegen een computertegenstander.
+              </p>
+              <ul class="project-features">
+                <li>
+                  Vloot plaatsen op het speelveld
+                </li>
+                <li>
+                  Spelen tegen de computer
+                </li>
+              </ul>
+            </div>
+            <details class="project-details">
+              <summary>
+                Meer over dit project
+                <span aria-hidden="true">
+                  +
+                </span>
+              </summary>
+              <dl class="project-story">
+                <div>
+                  <dt>
+                    Het idee
+                  </dt>
+                  <dd>
+                    Een zeeslagspel waarin je een land kiest, vijf schepen plaatst en tegen de computer speelt.
+                  </dd>
+                </div>
+                <div>
+                  <dt>
+                    De uitwerking
+                  </dt>
+                  <dd>
+                    JavaScript beheert twee 10 × 10 speelvelden, controleert de plaatsing van schepen en wisselt de beurten af. HTML en CSS verzorgen de schermen en visuele feedback.
+                  </dd>
+                </div>
+                <div>
+                  <dt>
+                    Een technische uitdaging
+                  </dt>
+                  <dd>
+                    De overgang van landkeuze naar het spel liep vast door verwijzingen naar ontbrekende afbeeldingen. De vlaggen worden nu rechtstreeks in de bordtitels getoond, zodat het spel kan starten.
+                  </dd>
+                </div>
+              </dl>
+            </details>
+            <a class="button game-button" href="games/battleship/" target="_blank" rel="noopener noreferrer" aria-label="Speel Battleship Pacific (opent in een nieuw tabblad)">
+              Speel de game
+              <span aria-hidden="true">
+                ↗
+              </span>
+            </a>
+          </article>
+          <article class="project" aria-labelledby="zuul-title">
+            <div class="project-top">
+              <span>
+                02 / TEXT ADVENTURE
+              </span>
+              <span class="project-badge">
+                Schoolproject
+              </span>
+            </div>
+            <div class="project-preview terminal" aria-hidden="true">
+              <span>
+                &gt;
+                look
+              </span>
+              <span>
+                You are in the hall.
+              </span>
+              <span>
+                &gt;
+                take sword
+                <span class="cursor">
+                  _
+                </span>
+              </span>
+            </div>
+            <div class="project-description">
+              <p class="tag">
+                C# · OOP · .NET
+              </p>
+              <h3 id="zuul-title">
+                Zuul Adventure
+              </h3>
+              <p>
+                Een tekstueel avontuur waarin je met commands kamers verkent en items verzamelt.
+              </p>
+              <ul class="project-features">
+                <li>
+                  Kamers en interactieve commands
+                </li>
+                <li>
+                  Inventory, items en health
+                </li>
+              </ul>
+            </div>
+            <details class="project-details">
+              <summary>
+                Meer over dit project
+                <span aria-hidden="true">
+                  +
+                </span>
+              </summary>
+              <p>
+                In dit C#-schoolproject staat objectgeoriënteerd programmeren centraal. Kamers, items en de speler vormen samen de onderdelen van het avontuur.
+              </p>
+            </details>
+          </article>
+          <article class="project" aria-labelledby="secure-title">
+            <div class="project-top">
+              <span>
+                03 / WEBAPPLICATIE
+              </span>
+              <span class="project-badge">
+                Schoolproject
+              </span>
+            </div>
+            <div class="project-preview security-preview" aria-hidden="true">
+              <div class="shield">
+                ✓
+              </div>
+              <span>
+                SECURITY
+                <br />
+                BY DESIGN
+              </span>
+            </div>
+            <div class="project-description">
+              <p class="tag">
+                PHP · MYSQL · SECURITY
+              </p>
+              <h3 id="secure-title">
+                Secure Web App
+              </h3>
+              <p>
+                Een PHP-schoolproject met aandacht voor veilige omgang met invoer en gevoelige gegevens.
+              </p>
+              <ul class="project-features">
+                <li>
+                  SQL-injectie en XSS voorkomen
+                </li>
+                <li>
+                  Gevoelige gegevens beschermen
+                </li>
+              </ul>
+            </div>
+            <details class="project-details">
+              <summary>
+                Meer over dit project
+                <span aria-hidden="true">
+                  +
+                </span>
+              </summary>
+              <p>
+                Dit project draait om veelvoorkomende risico’s in webapplicaties. Met PHP en MySQL onderzoek ik hoe applicaties invoer en gegevens veilig kunnen verwerken.
+              </p>
+            </details>
+          </article>
+          <article class="project" aria-labelledby="webshop-title">
+            <div class="project-top">
+              <span>
+                04 / WEBSHOP
+              </span>
+              <span class="project-badge">
+                Code op GitHub
+              </span>
+            </div>
+            <figure class="project-screenshot">
+              <a href="assets/webshop-login.jpg" target="_blank" rel="noopener noreferrer" aria-label="Vergroot de Webshop-logininterface (nieuw tabblad)">
+                <img src="assets/webshop-login.jpg" alt="De bestaande Webshop-interface met een donker login- en registratieformulier en oranje knoppen" loading="lazy" width="1265" height="900" />
+              </a>
+              <figcaption>
+                Logininterface · lokaal weergegeven zonder database
+              </figcaption>
+            </figure>
+            <div class="project-description">
+              <p class="tag">
+                PHP · MYSQL · CSS
+              </p>
+              <h3 id="webshop-title">
+                Webshop
+              </h3>
+              <p>
+                Een webshop in PHP met pagina’s voor een winkelwagen, inloggen en beheer.
+              </p>
+              <ul class="project-features">
+                <li>
+                  Producten toevoegen aan en verwijderen uit de winkelwagen
+                </li>
+                <li>
+                  Login- en beheerinterface
+                </li>
+              </ul>
+            </div>
+            <details class="project-details">
+              <summary>
+                Meer over dit project
+                <span aria-hidden="true">
+                  +
+                </span>
+              </summary>
+              <dl class="project-story">
+                <div>
+                  <dt>
+                    Het idee
+                  </dt>
+                  <dd>
+                    Een webshop voor Counter-Strike-items met een productoverzicht, gebruikersaccounts en een winkelwagen.
+                  </dd>
+                </div>
+                <div>
+                  <dt>
+                    De uitwerking
+                  </dt>
+                  <dd>
+                    PHP haalt producten uit MySQL op. De winkelwagen koppelt producten aan een gebruiker; aparte pagina’s verzorgen aanmelden, inloggen en beheer.
+                  </dd>
+                </div>
+                <div>
+                  <dt>
+                    Bekijk het project
+                  </dt>
+                  <dd>
+                    De screenshot toont de bestaande logininterface. De broncode is beschikbaar op GitHub; voor de volledige webshop is een lokale database nodig.
+                  </dd>
+                </div>
+              </dl>
+            </details>
+            <a class="button game-button" href="https://github.com/Orhan257/Webshop" target="_blank" rel="noopener noreferrer" aria-label="Bekijk de Webshop-code op GitHub (opent in een nieuw tabblad)">
+              Bekijk de code
+              <span aria-hidden="true">
+                ↗
+              </span>
+            </a>
+          </article>
+        </div>
+      </section>
+      <!-- Overzicht van technische en persoonlijke vaardigheden -->
+      <section class="skills section" id="skills">
+        <div class="section-label">
+          03 / SKILLS
+        </div>
+        <div class="skills-grid">
+          <div>
+            <h2>
+              Wat ik in de praktijk gebruik
+            </h2>
+            <p>
+              Mijn schoolprojecten zijn de plek waar ik mijn kennis toepas. Ik leer door te bouwen, fouten te onderzoeken en mijn werk te verbeteren.
+            </p>
+          </div>
+          <div class="skill-list">
+            <div>
+              <span>
+                Frontend
+              </span>
+              <p>
+                HTML · CSS · JavaScript
+                <small>
+                  Toegepast in Battleship Pacific
+                </small>
+              </p>
+            </div>
+            <div>
+              <span>
+                Backend
+              </span>
+              <p>
+                PHP · C# · MySQL
+                <small>
+                  Toegepast in Zuul Adventure en Secure Web App
+                </small>
+              </p>
+            </div>
+            <div>
+              <span>
+                Tools
+              </span>
+              <p>
+                Git · GitHub · Docker · VS Code
+              </p>
+            </div>
+            <div>
+              <span>
+                Persoonlijk
+              </span>
+              <p>
+                Leergierig · Nauwkeurig · Teamgericht
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Oproep voor een stage en e-mailknop -->
+      <section class="contact section" id="contact">
+        <p class="eyebrow">
+          LATEN WE KENNISMAKEN
+        </p>
+        <h2>
+          Op zoek naar een
+          <br />
+          <span>
+            gemotiveerde stagiair?
+          </span>
+        </h2>
+        <p>
+          Ik zoek een software development stage waarin ik aan echte applicaties kan meewerken. Mijn interesses liggen bij webdevelopment, veilige software en het stap voor stap oplossen van problemen.
+        </p>
+        <a class="button light" href="mailto:obaba6846@gmail.com" >
+          Stuur mij een e-mail
+          <span>
+            ↗
+          </span>
+        </a>
+        <p class="contact-address">
+          obaba6846@gmail.com
+        </p>
+      </section>
+    </main>
+    <footer>
+      <span>
+        © 2026 Orhan Şahin
+      </span>
+      <span>
+        Ontworpen
+        &
+        gebouwd met aandacht.
+      </span>
+      <a href="#home">
+        Naar boven ↑
+      </a>
+    </footer>
+    <script src="script.js">
+    </script>
+  </body>
 </html>

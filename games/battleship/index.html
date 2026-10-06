@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Battleship Pacific
+    </title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Intro Screen -->
+    <div id="intro-screen" class="screen active">
+      <h1>
+        Battleship
+      </h1>
+      <p class="game-subtitle">
+        Pacific
+      </p>
+      <button id="intro-start-button">
+        Start
+      </button>
+    </div>
+    <!-- Country Selection Screen -->
+    <div id="country-selection-screen" class="screen hidden">
+      <h1 class="title">
+        YOU
+      </h1>
+      <p class="subtitle">
+        Choose your country!
+      </p>
+      <div id="player-flag-container" class="flag-container">
+      </div>
+      <p id="playerSelectedFlagText" class="selection-status">
+        Selected Flag: None
+      </p>
+      <h1 class="title">
+        ENEMY
+      </h1>
+      <p class="subtitle">
+        Choose enemy country!
+      </p>
+      <div id="enemy-flag-container" class="flag-container">
+      </div>
+      <p id="enemySelectedFlagText" class="selection-status">
+        Selected Flag: None
+      </p>
+      <button id="continue-game-button" disabled>
+        Continue to Game
+      </button>
+      <p id="country-selection-message" class="message-area">
+      </p>
+    </div>
+    <!-- Game Screen -->
+    <div id="game-screen" class="screen hidden">
+      <div class="game-container">
+        <div class="player-board-container">
+          <h2 id="player-title">
+            Your Board
+          </h2>
+          <div id="player-board" class="board">
+          </div>
+          <div class="ship-placement-controls">
+            <button id="rotate-ship">
+              Rotate Ship
+            </button>
+            <button id="start-game-button" disabled>
+              Start Battle
+            </button>
+          </div>
+        </div>
+        <div class="computer-board-container">
+          <h2 id="computer-title">
+            Opponent's Board
+          </h2>
+          <div id="computer-board" class="board">
+          </div>
+        </div>
+      </div>
+      <div class="message-area game-message-area">
+        <p id="message">
+        </p>
+      </div>
+    </div>
+    <script src="script.js">
+    </script>
+  </body>
+</html>
