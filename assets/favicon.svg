@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 72" fill="none">
+  <title>Orhan Şahin — schaakpaard</title>
+  <rect width="64" height="72" rx="12" fill="#0f172a"/>
+  <g fill="#60a5fa">
+    <path d="M12 53c1-9 7-16 17-24l-10 5c-3 2-6 1-8-1l-5-6L23 12l3-8 8 7c14 3 21 14 20 28l-2 14H12Z"/>
+    <rect x="9" y="57" width="46" height="7" rx="3.5"/>
+  </g>
+  <path d="M35 19c9 7 11 17 7 27" stroke="#0f172a" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="25" cy="22" r="2.2" fill="#0f172a"/>
+</svg>

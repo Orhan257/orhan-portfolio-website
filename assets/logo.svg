@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 88" fill="none">
+  <title>Schaakbord met paard</title>
+  <defs>
+    <pattern id="board" width="20" height="20" patternUnits="userSpaceOnUse" x="4" y="4">
+      <rect width="20" height="20" fill="#162840"/>
+      <path d="M0 0h10v10H0zM10 10h10v10H10z" fill="#7bb6f8"/>
+    </pattern>
+  </defs>
+  <!-- Een schaakbord met paard, naast de initialen. -->
+  <rect x="4" y="4" width="80" height="80" rx="5" fill="url(#board)" stroke="#93c5fd" stroke-width="1.5"/>
+  <circle cx="44" cy="44" r="27" fill="#0f172a" stroke="#60a5fa" stroke-width="1.5"/>
+  <g transform="translate(23 20) scale(.69)">
+    <path d="M12 53c1-9 7-16 17-24l-10 5c-3 2-6 1-8-1l-5-6L23 12l3-8 8 7c14 3 21 14 20 28l-2 14H12Z" fill="#93c5fd"/>
+    <rect x="9" y="57" width="46" height="7" rx="3.5" fill="#93c5fd"/>
+    <path d="M35 19c9 7 11 17 7 27" stroke="#0f172a" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="25" cy="22" r="2.2" fill="#0f172a"/>
+  </g>
+</svg>

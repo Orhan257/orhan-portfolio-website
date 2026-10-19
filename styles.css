@@ -84,10 +84,52 @@ section[id] {
 }
 
 .brand {
-  font: 700 1.35rem "Space Grotesk", sans-serif;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 8px;
 }
 
-.brand span, h1 span, h2 span {
+.brand img {
+  display: block;
+  width: 36px;
+  height: 36px;
+}
+
+.brand-initials {
+  position: relative;
+  font: 600 1.4rem "Space Grotesk", sans-serif;
+  color: var(--text);
+}
+
+/* De naam verschijnt rechts, zonder de navigatie te verschuiven. */
+.brand-name {
+  position: absolute;
+  left: calc(100% + 10px);
+  top: 50%;
+  color: var(--blue);
+  font: 500 0.72rem "DM Sans", sans-serif;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transform: translate(-5px, -50%);
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.brand:focus-visible .brand-name {
+  opacity: 1;
+  transform: translate(0, -50%);
+}
+
+@media (hover: hover) {
+  .brand-initials:hover .brand-name {
+    opacity: 1;
+    transform: translate(0, -50%);
+  }
+}
+
+h1 span, h2 span {
   color: var(--blue);
 }
 
