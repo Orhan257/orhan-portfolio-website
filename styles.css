@@ -843,3 +843,55 @@ footer a {
     transition: none !important;
   }
 }
+
+/* Kleine schaakstukken en taallabels als rustige accenten. */
+.section {
+  position: relative;
+}
+
+.section-chess {
+  position: absolute;
+  top: 78px;
+  right: 6vw;
+  width: 60px;
+  height: 64px;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.contact-chess {
+  display: block;
+  margin: 0 auto 20px;
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+.language-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 28px;
+}
+
+.language-badges span {
+  padding: 7px 13px;
+  border: 1px solid currentColor;
+  border-radius: 8px;
+  background: rgba(30, 41, 59, 0.4);
+  font: 500 0.8rem monospace;
+}
+
+.language-html { color: #e6a080; }
+.language-css { color: #93c5fd; }
+.language-js { color: #d8c481; }
+.language-php, .language-csharp { color: #b5a5df; }
+.language-sql { color: #86bcb5; }
+
+@media (max-width: 560px) {
+  .section-chess {
+    top: 55px;
+    right: 24px;
+    width: 44px;
+    height: 48px;
+  }
+}
