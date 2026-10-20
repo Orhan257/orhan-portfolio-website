@@ -614,7 +614,7 @@ h1 span, h2 span {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10vw;
-  padding-top: 55px;
+  padding-top: 28px;
 }
 
 .skills-grid > div:first-child p {
@@ -844,25 +844,27 @@ footer a {
   }
 }
 
-/* Kleine schaakstukken en taallabels als rustige accenten. */
+/* Schaakstukken en gekleurde taallabels. */
 .section {
   position: relative;
 }
 
 .section-chess {
   position: absolute;
-  top: 78px;
+  top: 48px;
   right: 6vw;
-  width: 60px;
-  height: 64px;
-  opacity: 0.4;
+  width: 80px;
+  height: 86px;
+  filter: drop-shadow(0 4px 14px rgba(96, 165, 250, 0.25));
   pointer-events: none;
 }
 
 .contact-chess {
   display: block;
   margin: 0 auto 20px;
-  opacity: 0.55;
+  width: 80px;
+  height: 86px;
+  filter: drop-shadow(0 4px 14px rgba(96, 165, 250, 0.25));
   pointer-events: none;
 }
 
@@ -889,9 +891,9 @@ footer a {
 
 @media (max-width: 560px) {
   .section-chess {
-    top: 55px;
+    top: 28px;
     right: 24px;
-    width: 44px;
-    height: 48px;
+    width: 64px;
+    height: 69px;
   }
 }
