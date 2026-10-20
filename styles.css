@@ -861,7 +861,7 @@ footer a {
 
 .contact-chess {
   display: block;
-  margin: 0 auto 20px;
+  margin: 0 0 20px auto;
   width: 80px;
   height: 86px;
   filter: drop-shadow(0 4px 14px rgba(96, 165, 250, 0.25));
