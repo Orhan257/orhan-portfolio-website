@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 270">
+<title>Volledig schaakbord in de beginopstelling</title>
+<defs>
+<g id="king">
+  
+  <path d="M42 8v18M34 16h16" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"/><path d="M24 31q18-14 36 0l-6 14H30zM31 49h22l6 20H25z"/><rect x="27" y="43" width="30" height="7" rx="3"/><rect x="20" y="70" width="44" height="9" rx="3"/>
+</g>
+<g id="queen">
+  
+  <circle cx="17" cy="23" r="4"/><circle cx="42" cy="15" r="4"/><circle cx="67" cy="23" r="4"/><path d="m18 30 9 25h30l9-25-15 10-9-17-9 17zM29 63h26l5 7H24z"/><rect x="26" y="55" width="32" height="7" rx="3"/><rect x="20" y="71" width="44" height="8" rx="3"/>
+</g>
+<g id="rook">
+  
+  <path d="M19 15h10v10h8V15h10v10h8V15h10v23H19zM26 42h32l4 27H22z"/><rect x="23" y="35" width="38" height="7" rx="2"/><rect x="18" y="70" width="48" height="9" rx="3"/><path d="M34 50h16" fill="none" stroke="#527198" stroke-width="3"/>
+</g>
+<g id="knight">
+  
+  <path d="M23 68c0-13 9-23 22-33L31 42q-6 3-9-2l-5-7 19-17 3-9 10 9c16 4 23 17 21 33l-3 19z"/><path d="M51 28c10 8 12 21 7 32" fill="none" stroke="#527198" stroke-width="3" stroke-linecap="round"/><circle cx="39" cy="29" r="2.5" fill="#0f172a"/><rect x="19" y="71" width="51" height="8" rx="3"/>
+</g>
+<g id="bishop">
+  
+  <circle cx="42" cy="10" r="5"/>
+  <path d="M42 16C34 22 25 31 25 39c0 8 7 12 17 12s17-4 17-12c0-8-9-17-17-23Z"/>
+  <path d="m47 25-9 13" fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round"/>
+  <rect x="28" y="50" width="28" height="7" rx="3"/>
+  <path d="M33 57h18c0 6 4 10 9 13H24c5-3 9-7 9-13Z"/>
+  <rect x="20" y="71" width="44" height="8" rx="3"/>
+</g>
+<g id="pawn"><circle cx="42" cy="22" r="13"/><path d="M30 38h24v8H30zM34 46c0 12-4 18-10 22h36c-6-4-10-10-10-22M21 68h42v10H21z"/></g>
+</defs>
+<polygon points="22,87 278,63 334,223 78,247" fill="#102039" stroke="#6c97c7" stroke-width="2"/>
+<polygon points="22,80 54,77 61,97 29,100" fill="#83abd6"/>
+<polygon points="54,77 86,74 93,94 61,97" fill="#274568"/>
+<polygon points="86,74 118,71 125,91 93,94" fill="#83abd6"/>
+<polygon points="118,71 150,68 157,88 125,91" fill="#274568"/>
+<polygon points="150,68 182,65 189,85 157,88" fill="#83abd6"/>
+<polygon points="182,65 214,62 221,82 189,85" fill="#274568"/>
+<polygon points="214,62 246,59 253,79 221,82" fill="#83abd6"/>
+<polygon points="246,59 278,56 285,76 253,79" fill="#274568"/>
+<polygon points="29,100 61,97 68,117 36,120" fill="#274568"/>
+<polygon points="61,97 93,94 100,114 68,117" fill="#83abd6"/>
+<polygon points="93,94 125,91 132,111 100,114" fill="#274568"/>
+<polygon points="125,91 157,88 164,108 132,111" fill="#83abd6"/>
+<polygon points="157,88 189,85 196,105 164,108" fill="#274568"/>
+<polygon points="189,85 221,82 228,102 196,105" fill="#83abd6"/>
+<polygon points="221,82 253,79 260,99 228,102" fill="#274568"/>
+<polygon points="253,79 285,76 292,96 260,99" fill="#83abd6"/>
+<polygon points="36,120 68,117 75,137 43,140" fill="#83abd6"/>
+<polygon points="68,117 100,114 107,134 75,137" fill="#274568"/>
+<polygon points="100,114 132,111 139,131 107,134" fill="#83abd6"/>
+<polygon points="132,111 164,108 171,128 139,131" fill="#274568"/>
+<polygon points="164,108 196,105 203,125 171,128" fill="#83abd6"/>
+<polygon points="196,105 228,102 235,122 203,125" fill="#274568"/>
+<polygon points="228,102 260,99 267,119 235,122" fill="#83abd6"/>
+<polygon points="260,99 292,96 299,116 267,119" fill="#274568"/>
+<polygon points="43,140 75,137 82,157 50,160" fill="#274568"/>
+<polygon points="75,137 107,134 114,154 82,157" fill="#83abd6"/>
+<polygon points="107,134 139,131 146,151 114,154" fill="#274568"/>
+<polygon points="139,131 171,128 178,148 146,151" fill="#83abd6"/>
+<polygon points="171,128 203,125 210,145 178,148" fill="#274568"/>
+<polygon points="203,125 235,122 242,142 210,145" fill="#83abd6"/>
+<polygon points="235,122 267,119 274,139 242,142" fill="#274568"/>
+<polygon points="267,119 299,116 306,136 274,139" fill="#83abd6"/>
+<polygon points="50,160 82,157 89,177 57,180" fill="#83abd6"/>
+<polygon points="82,157 114,154 121,174 89,177" fill="#274568"/>
+<polygon points="114,154 146,151 153,171 121,174" fill="#83abd6"/>
+<polygon points="146,151 178,148 185,168 153,171" fill="#274568"/>
+<polygon points="178,148 210,145 217,165 185,168" fill="#83abd6"/>
+<polygon points="210,145 242,142 249,162 217,165" fill="#274568"/>
+<polygon points="242,142 274,139 281,159 249,162" fill="#83abd6"/>
+<polygon points="274,139 306,136 313,156 281,159" fill="#274568"/>
+<polygon points="57,180 89,177 96,197 64,200" fill="#274568"/>
+<polygon points="89,177 121,174 128,194 96,197" fill="#83abd6"/>
+<polygon points="121,174 153,171 160,191 128,194" fill="#274568"/>
+<polygon points="153,171 185,168 192,188 160,191" fill="#83abd6"/>
+<polygon points="185,168 217,165 224,185 192,188" fill="#274568"/>
+<polygon points="217,165 249,162 256,182 224,185" fill="#83abd6"/>
+<polygon points="249,162 281,159 288,179 256,182" fill="#274568"/>
+<polygon points="281,159 313,156 320,176 288,179" fill="#83abd6"/>
+<polygon points="64,200 96,197 103,217 71,220" fill="#83abd6"/>
+<polygon points="96,197 128,194 135,214 103,217" fill="#274568"/>
+<polygon points="128,194 160,191 167,211 135,214" fill="#83abd6"/>
+<polygon points="160,191 192,188 199,208 167,211" fill="#274568"/>
+<polygon points="192,188 224,185 231,205 199,208" fill="#83abd6"/>
+<polygon points="224,185 256,182 263,202 231,205" fill="#274568"/>
+<polygon points="256,182 288,179 295,199 263,202" fill="#83abd6"/>
+<polygon points="288,179 320,176 327,196 295,199" fill="#274568"/>
+<polygon points="71,220 103,217 110,237 78,240" fill="#274568"/>
+<polygon points="103,217 135,214 142,234 110,237" fill="#83abd6"/>
+<polygon points="135,214 167,211 174,231 142,234" fill="#274568"/>
+<polygon points="167,211 199,208 206,228 174,231" fill="#83abd6"/>
+<polygon points="199,208 231,205 238,225 206,228" fill="#274568"/>
+<polygon points="231,205 263,202 270,222 238,225" fill="#83abd6"/>
+<polygon points="263,202 295,199 302,219 270,222" fill="#274568"/>
+<polygon points="295,199 327,196 334,216 302,219" fill="#83abd6"/>
+<polygon points="22,80 278,56 334,216 78,240" fill="none" stroke="#b0ccec" stroke-width="3"/>
+<ellipse cx="42.55" cy="91.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#rook" transform="translate(28.549999999999997,63.5) scale(.333)" fill="#294f79" color="#294f79" stroke="#c5dcf4" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="74.55" cy="88.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#knight" transform="translate(60.55,60.5) scale(.333)" fill="#294f79" color="#294f79" stroke="#c5dcf4" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="106.55" cy="85.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#bishop" transform="translate(92.55,57.5) scale(.333)" fill="#294f79" color="#294f79" stroke="#c5dcf4" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="138.55" cy="82.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#queen" transform="translate(124.55000000000001,54.5) scale(.333)" fill="#294f79" color="#294f79" stroke="#c5dcf4" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="170.55" cy="79.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#king" transform="translate(156.55,51.5) scale(.333)" fill="#294f79" color="#294f79" stroke="#c5dcf4" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="202.55" cy="76.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#bishop" transform="translate(188.55,48.5) scale(.333)" fill="#294f79" color="#294f79" stroke="#c5dcf4" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="234.55" cy="73.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#knight" transform="translate(220.55,45.5) scale(.333)" fill="#294f79" color="#294f79" stroke="#c5dcf4" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="266.55" cy="70.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#rook" transform="translate(252.55,42.5) scale(.333)" fill="#294f79" color="#294f79" stroke="#c5dcf4" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="49.55" cy="111.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#pawn" transform="translate(35.55,83.5) scale(.333)" fill="#294f79" color="#294f79" stroke="#c5dcf4" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="81.55" cy="108.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#pawn" transform="translate(67.55,80.5) scale(.333)" fill="#294f79" color="#294f79" stroke="#c5dcf4" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="113.55" cy="105.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#pawn" transform="translate(99.55,77.5) scale(.333)" fill="#294f79" color="#294f79" stroke="#c5dcf4" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="145.55" cy="102.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#pawn" transform="translate(131.55,74.5) scale(.333)" fill="#294f79" color="#294f79" stroke="#c5dcf4" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="177.55" cy="99.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#pawn" transform="translate(163.55,71.5) scale(.333)" fill="#294f79" color="#294f79" stroke="#c5dcf4" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="209.55" cy="96.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#pawn" transform="translate(195.55,68.5) scale(.333)" fill="#294f79" color="#294f79" stroke="#c5dcf4" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="241.55" cy="93.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#pawn" transform="translate(227.55,65.5) scale(.333)" fill="#294f79" color="#294f79" stroke="#c5dcf4" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="273.55" cy="90.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#pawn" transform="translate(259.55,62.5) scale(.333)" fill="#294f79" color="#294f79" stroke="#c5dcf4" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="84.55000000000001" cy="211.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#pawn" transform="translate(70.55000000000001,183.5) scale(.333)" fill="#e2edff" color="#e2edff" stroke="#28415e" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="116.55000000000001" cy="208.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#pawn" transform="translate(102.55000000000001,180.5) scale(.333)" fill="#e2edff" color="#e2edff" stroke="#28415e" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="148.55" cy="205.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#pawn" transform="translate(134.55,177.5) scale(.333)" fill="#e2edff" color="#e2edff" stroke="#28415e" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="180.55" cy="202.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#pawn" transform="translate(166.55,174.5) scale(.333)" fill="#e2edff" color="#e2edff" stroke="#28415e" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="212.55" cy="199.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#pawn" transform="translate(198.55,171.5) scale(.333)" fill="#e2edff" color="#e2edff" stroke="#28415e" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="244.55" cy="196.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#pawn" transform="translate(230.55,168.5) scale(.333)" fill="#e2edff" color="#e2edff" stroke="#28415e" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="276.55" cy="193.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#pawn" transform="translate(262.55,165.5) scale(.333)" fill="#e2edff" color="#e2edff" stroke="#28415e" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="308.55" cy="190.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#pawn" transform="translate(294.55,162.5) scale(.333)" fill="#e2edff" color="#e2edff" stroke="#28415e" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="91.55000000000001" cy="231.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#rook" transform="translate(77.55000000000001,203.5) scale(.333)" fill="#e2edff" color="#e2edff" stroke="#28415e" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="123.55000000000001" cy="228.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#knight" transform="translate(109.55000000000001,200.5) scale(.333)" fill="#e2edff" color="#e2edff" stroke="#28415e" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="155.55" cy="225.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#bishop" transform="translate(141.55,197.5) scale(.333)" fill="#e2edff" color="#e2edff" stroke="#28415e" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="187.55" cy="222.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#queen" transform="translate(173.55,194.5) scale(.333)" fill="#e2edff" color="#e2edff" stroke="#28415e" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="219.55" cy="219.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#king" transform="translate(205.55,191.5) scale(.333)" fill="#e2edff" color="#e2edff" stroke="#28415e" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="251.55" cy="216.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#bishop" transform="translate(237.55,188.5) scale(.333)" fill="#e2edff" color="#e2edff" stroke="#28415e" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="283.55" cy="213.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#knight" transform="translate(269.55,185.5) scale(.333)" fill="#e2edff" color="#e2edff" stroke="#28415e" stroke-width="1.6" stroke-linejoin="round"/>
+<ellipse cx="315.55" cy="210.5" rx="9" ry="3" fill="#091426" opacity=".4"/>
+<use href="#rook" transform="translate(301.55,182.5) scale(.333)" fill="#e2edff" color="#e2edff" stroke="#28415e" stroke-width="1.6" stroke-linejoin="round"/>
+</svg>

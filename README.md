@@ -56,3 +56,17 @@ Bu pakette alan adına özel bir ayar yoktur.
 Battleship: https://github.com/Orhan257/WebGame-Battleship-Pacific
 
 Webshop: https://github.com/Orhan257/Webshop
+
+
+## 3B satranç alanı
+
+`chess.js`, iletişim bölümündeki etkileşimli tahtayı yönetir. Fareyle sürükleme
+kamerayı döndürür; taşa ve hedef kareye tıklamak taşı hareket ettirir. Serbest
+yerleştirme modudur: yasal hamle, sıra, şah/mat veya bilgisayar rakibi yoktur.
+Görünür başlık, açıklama veya ayar düğmesi yoktur. Ok tuşlarıyla kamera
+döndürülebilir; Escape seçimi kaldırır.
+Sayfayı yenilemek yerleşimi sıfırlar. HTTP sunucusu ve WebGL2 gerekir.
+
+Three.js r180 dosyaları `assets/vendor/` içinde yereldir; çalışma sırasında
+harici CDN kullanılmaz. MIT lisansı aynı klasördedir. Kütüphane tahta görünür
+olduğunda yüklenir; çizim yalnızca etkileşim ve boyut değişiminde yapılır.

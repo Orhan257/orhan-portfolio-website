@@ -16,7 +16,7 @@
       rel="stylesheet"
     />
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
-    <link rel="stylesheet" href="styles.css?v=94e6a4b93080" />
+    <link rel="stylesheet" href="styles.css?v=d34e8cb095a7" />
   </head>
   <body>
     <a class="skip-link" href="#main"> Ga naar inhoud </a>
@@ -432,7 +432,6 @@
       </section>
       <!-- Oproep voor een stage en e-mailknop -->
       <section class="contact section" id="contact">
-        <img class="contact-chess" src="assets/chess-bishop.svg" alt="" aria-hidden="true" width="80" height="86" />
         <p class="eyebrow">LATEN WE KENNISMAKEN</p>
         <h2>
           Op zoek naar een
@@ -449,6 +448,12 @@
           <span> ↗ </span>
         </a>
         <p class="contact-address">obaba6846@gmail.com</p>
+        <div class="chess-playground" id="chess-title" aria-label="Interactief 3D-schaakbord">
+          <div class="chess-stage">
+            <img src="assets/chess-board-full.svg" alt="Schaakbord in de beginopstelling" width="360" height="270" />
+          </div>
+          <span class="chess-status sr-only" role="status"></span>
+        </div>
       </section>
     </main>
     <footer>
@@ -457,5 +462,6 @@
       <a href="#home"> Naar boven ↑ </a>
     </footer>
     <script src="script.js"></script>
+    <script type="module" src="chess.js?v=f41e2dc4897e"></script>
   </body>
 </html>
